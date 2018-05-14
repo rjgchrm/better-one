@@ -1,0 +1,5 @@
+const app = require('../app');
+
+// listen
+
+if (!module.parent) app.listen(4000);
